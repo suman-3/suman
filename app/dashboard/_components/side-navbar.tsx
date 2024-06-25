@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Logo } from "@/components/logo";
 import { Separator } from "@/components/ui/separator";
 import { MenuList } from "@/constant/menulist";
