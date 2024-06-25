@@ -13,7 +13,6 @@ export const SideNav = () => {
     <div className="h-screen p-5 shadow-sm border-r flex flex-col gap-2 justify-start">
       <Link href="/" className="cursor-pointer flex flex-col space-y-2">
         <Logo />
-        <Separator />
       </Link>
       <div className="mt-12">
         {MenuList.map((menu) => {
