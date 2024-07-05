@@ -41,7 +41,7 @@ export default function Hero() {
           <span className="font-serif">S</span>uman{" "}
           <span className="font-serif">M</span>ondal,{" "}
           <span className="animate-text-gradient sm:inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text leading-tight text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400 italic">
-            self-thought full stack developer
+            self-taught full stack developer
           </span>{" "}
           from <span className="font-medium">India.</span>
         </h2>
