@@ -6,6 +6,7 @@ import { Analytics } from "@vercel/analytics/next";
 import Header from "@/components/header";
 import { Toaster } from "@/components/ui/sonner";
 import { cn } from "@/lib/utils";
+import { Footer } from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,6 +36,7 @@ export default function RootLayout({
           <Header/>
           {children}
           <Toaster/>
+          <Footer className="" />
           <Analytics mode={"production"}   />
         </ThemeProvider>
       </body>
