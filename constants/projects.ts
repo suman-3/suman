@@ -20,4 +20,11 @@ export const projects = [
         image: "/projects/project3.png",
         link: "https://quickbio.exions.xyz",
     },
+    {
+        title: "Next14 Starter Kit",
+        description: "Kickstart projects with our Next.js 14 Starter Kit, featuring ShadCN, Magic UI, and Aceternity. Includes Clek authentication, Supabase storage, and Stripe subscriptions for scalable, secure apps.",
+        github: "https://github.com/suman-3/Next-TechSatck",
+        image: "/projects/project4.png",
+        link: "https://starter-kit.exions.xyz",
+    },
 ];
