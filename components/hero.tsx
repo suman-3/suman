@@ -88,7 +88,7 @@ export default function Hero() {
                   <Textarea
                     id="message"
                     placeholder="Message"
-                    className="min-h-[100px]"
+                    className="max-h-[80px] resize-none"
                     required
                     name="message"
                   />

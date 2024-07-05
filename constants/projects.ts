@@ -1,9 +1,9 @@
 export const projects = [
     {
-        title: "MusicHub",
-        description: "A music streaming platform that allows users to listen to music, search for songs...",
-        github: "https://github.com/r2hu1/MusicHub",
-        image: "/musichub.png",
-        link: "https://musichubs.vercel.app/",
+        title: "Seed",
+        description: "Seed is a web app that enables users to design software architectures with ease...",
+        github: "https://github.com/suman-3/seed",
+        image: "/projects/project1.png",
+        link: "https://seed.exions.xyz/",
     },
 ];
