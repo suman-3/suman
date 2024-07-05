@@ -19,6 +19,7 @@ import { IoMdMail } from "react-icons/io";
 import { useForm, ValidationError } from "@formspree/react";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import { FaGithub } from "react-icons/fa6";
 
 export default function Hero() {
   const [state, handleSubmit] = useForm("xwpekrdv");
@@ -118,6 +119,11 @@ export default function Hero() {
                         <span className="cursor-pointer hover:bg-primary transition hover:text-primary-foreground bg-secondary/50 p-2 text-xs flex gap-1 items-center w-fit rounded-md px-3">
                           hi@suman.mondal
                         </span>
+                      </Link>
+                      <Link href="https://github.com/suman-3" target="_blank">
+                        <div className="cursor-pointer hover:bg-primary transition hover:text-primary-foreground bg-secondary/50 p-2 text-xs flex gap-1 items-center w-fit rounded-md px-3">
+                        <FaGithub className="h-4 w-4" />
+                        </div>
                       </Link>
                     </div>
                   </div>

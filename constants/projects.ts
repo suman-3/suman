@@ -22,9 +22,16 @@ export const projects = [
     },
     {
         title: "Next14 Starter Kit",
-        description: "Kickstart projects with our Next.js 14 Starter Kit, featuring ShadCN, Magic UI, and Aceternity. Includes Clek authentication, Supabase storage, and Stripe subscriptions for scalable, secure apps.",
+        description: "Kickstart projects with our Next.js 14 Starter Kit. Includes Clek authentication, Supabase storage, and Stripe subscriptions for scalable, secure apps.",
         github: "https://github.com/suman-3/Next-TechSatck",
         image: "/projects/project4.png",
         link: "https://starter-kit.exions.xyz",
+    },
+    {
+        title: "Script to Image",
+        description: "A web tool to paste code in various languages and export it as an image with different backgrounds and themes. Perfect for sharing and showcasing code snippets.",
+        github: "https://github.com/suman-3/Code_Script_Image",
+        image: "/projects/project5.png",
+        link: "https://script.exions.xyz",
     },
 ];
