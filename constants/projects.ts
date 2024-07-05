@@ -13,4 +13,11 @@ export const projects = [
         image: "/projects/project2.png",
         link: "https://praxis.exions.xyz",
     },
+    {
+        title: "Quick Bio",
+        description: "AI-powered tool for instant, personalized bio generation based on user input",
+        github: "https://github.com/suman-3/Quick-Bio",
+        image: "/projects/project3.png",
+        link: "https://quickbio.exions.xyz",
+    },
 ];
