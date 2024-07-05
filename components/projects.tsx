@@ -10,8 +10,8 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Projects() {
   return (
-    <section className="py-10 flex-wrap px-6 md:px-20 lg:px-32 flex items-center justify-center gap-8 overflow-hidden">
-      <div className="flex flex-wrap gap-3 sm:grid grid-cols-2 lg:grid-cols-3">
+    <section className="py-10 flex-wrap px-6 md:px-20 lg:px-32 flex items-center justify-center gap-5 overflow-hidden">
+      <div className="flex flex-wrap gap-4 sm:grid grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <div
             key={project.title}

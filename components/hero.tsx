@@ -37,17 +37,16 @@ export default function Hero() {
     <section className="py-10 mt-2 px-7 md:px-20 lg:px-32">
       <div className="grid gap-3 max-w-2xl">
         <h2 className="text-3xl font-medium text-gray-900 dark:text-gray-50 sm:text-4xl">
-          <span className="font-serif">I</span> am{" "}
+          <span className="font-serif">I</span>{" "}
           <span className="font-serif">S</span>uman{" "}
           <span className="font-serif">M</span>ondal,{" "}
           <span className="animate-text-gradient sm:inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text leading-tight text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400 italic">
-            self-taught full stack developer
+            am a self-taught full stack developer
           </span>{" "}
           from <span className="font-medium">India.</span>
         </h2>
         <p className="text-base text-gray-400 -mt-1 mb-3">
-          A full stack developer with a passion for creating modern and
-          intuitive web applications.
+        Passionate about creating modern web applications, experienced in effectively coordinating with teams to execute complex projects.
         </p>
         <div className="flex gap-3">
           <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
